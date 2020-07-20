@@ -17,6 +17,7 @@
     />
     <!--using custom style css-->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
     <title>Portfolio_Sohag</title>
   </head>
@@ -66,9 +67,9 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="./index.html" class="nav-link text-light">
+              <a href="#portfolios" class="nav-link text-light">
                 <span class="fa fa-laptop fa-lg"></span>
-                Work
+                Portfolio
               </a>
             </li>
             <li class="nav-item">
@@ -125,42 +126,42 @@
     <!-- home Area end -->
     <div class="container">
       <div class="row">
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/html-5.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/css3.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/javascript.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/bootstrap.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/bubbles/96/000000/react.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/python.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/django.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/clouds/96/000000/api.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/postgreesql.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img src="https://img.icons8.com/color/96/000000/mongodb.png" />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img
             src="https://img.icons8.com/ios/96/000000/java-coffee-cup-logo.png"
           />
         </div>
-        <div class="col-4 col-sm-2 col-md-1">
+        <div class="col-4 col-sm-2 col-md-2 col-xl-1">
           <img
             src="https://img.icons8.com/plasticine/96/000000/android-os.png"
           />
@@ -170,11 +171,11 @@
 
     <hr />
     <!--About Section start-->
-    <section id="about" class="section-padding">
+    <section id="about">
       <div class="container">
         <div class="row justify-content-center">
           <div
-            class="card shadow-lg bg-white rounded col-12 col-sm-6 col-md-6 col-xl-6"
+            class="card shadow-lg bg-white rounded col-12 col-sm-12 col-md-12 col-xl-6"
           >
             <div class="card-body img-thumb">
               <img
@@ -185,13 +186,10 @@
             </div>
           </div>
           <div
-            class="card shadow-lg bg-white rounded col-12 col-sm col-md-6 col-xl-6"
+            class="card shadow-lg bg-white rounded col-12 col-sm-12 col-md-12 col-xl-6"
           >
             <div class="card-body">
-              <div
-                class="profile-wrapper wow fadeInRight"
-                data-wow-delay="0.3s"
-              >
+              <div class="profile-wrapper">
                 <h3>Hi Guys!</h3>
                 <p>
                   Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et
@@ -240,10 +238,10 @@
                     </li>
                   </ul>
                 </div>
-                <a href="#" class="btn mcolor text-light"
+                <a href="#" class="btn mcolor abtn text-light"
                   ><i class="fa fa-paperclip"></i> Download Resume</a
                 >
-                <a href="#contact" class="btn btn-danger"
+                <a href="#contact" class="btn abtn btn-danger"
                   ><i class="fa fa-commenting"></i> Contact Me</a
                 >
               </div>
@@ -296,7 +294,7 @@
                 <li>
                   <div class="content-text">
                     <h3 class="line-title">
-                      Secondary School - DK Dhakil Madrasha
+                      Secondary School - Dakkingaon Kaliabo Dakhil Madrasah
                     </h3>
                     <span>2014</span>
                     <p class="line-text">
@@ -336,7 +334,119 @@
       </div>
     </div>
     <!-- Resume Section End -->
-    <hr />
+
+    <!--Portfolio Section start-->
+    <div id="portfolios" class="container-fluid">
+      <h2 class="section-title text-center">My Portfolio</h2>
+      <div class="row controls">
+        <!--portfolio controller button-->
+        <div class="pfbtn col-12 col-sm col-md col-xl">
+          <a data-filter="all" class="filter">
+            All
+          </a>
+        </div>
+        <div class="pfbtn col-12 col-sm col-md col-xl">
+          <a data-filter=".design" class="filter">
+            Design
+          </a>
+        </div>
+        <div class="pfbtn col-12 col-sm col-md col-xl">
+          <a data-filter=".development" class="filter">
+            Development
+          </a>
+        </div>
+        <!--portfolio controller button-->
+      </div>
+      <!-- Portfolio Recent Projects -->
+      <div id="portfolio" class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+          <div class="portfolio-item">
+            <div class="short-item">
+              <img
+                src="./assets/img/portfolio/django-react-todolist.png"
+                alt="e-commerce page design"
+                class="img2"
+              />
+              <div class="overlay">
+                <div>
+                  <a>
+                    <i class="fa fa-eye"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+          <div class="portfolio-item">
+            <div class="short-item">
+              <img
+                src="./assets/img/portfolio/django-react-booklist.png"
+                alt="e-commerce page design"
+                class="img2"
+              />
+              <div class="overlay">
+                <div>
+                  <a>
+                    <i class="fa fa-eye"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-12 col-sm-12 col-md-6 col-xl-4">
+          <div class="portfolio-item">
+            <div class="short-item">
+              <img
+                src="./assets/img/portfolio/django-blog.png"
+                alt="e-commerce page design"
+                class="img2"
+              />
+              <div class="overlay">
+                <div>
+                  <a>
+                    <i class="fa fa-eye"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+          <div class="portfolio-item">
+            <div class="short-item">
+              <img
+                src="./assets/img/portfolio/android-java-calculator.png"
+                alt="e-commerce page design"
+                class="img2"
+              />
+              <div class="overlay">
+                <div>
+                  <a>
+                    <i class="fa fa-eye"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Portfolio Section end-->
+
     <!-- Contact Section Start -->
     <section id="contact">
       <div class="container">
@@ -443,7 +553,7 @@
     <footer class="footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 offset-1 col-sm-2">
+          <div class="col-3 offset-1 col-sm-2">
             <h5>Links</h5>
             <ul class="list-unstyled">
               <li><a href="./index.html" class="text-light">Home</a></li>
