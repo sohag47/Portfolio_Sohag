@@ -1,3 +1,4 @@
+/* extra space remove */
 html,
 nav,
 footer,
@@ -7,7 +8,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-
+/* font style */
 .font1 {
   font-family: cursive, sans-serif;
 }
@@ -18,12 +19,15 @@ body {
   font-family: cursive, sans-serif;
 }
 
+/* footer style */
 .footer {
   background-color: #566573;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
   color: #f2f3f4;
 }
+
+/* navbar style */
 .navbar {
   background-color: #17202a;
 }
@@ -72,25 +76,25 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+/* About style */
 .about-profile {
-  position: relative;
   margin: 20px 0 30px 0;
 }
-.about-profile .pro-title {
+
+.pro-title {
   font-weight: 700;
   color: #040404;
-  position: relative;
   width: 120px;
-  display: inline-block;
   margin-bottom: 5px;
 }
-.about-profile .pro-title:after {
+.pro-title:after {
   position: absolute;
-  content: ":";
   color: #040404;
   font-size: 14px;
   left: 77px;
 }
+
 .about-profile .admin-sign {
   position: absolute;
   right: 45px;
