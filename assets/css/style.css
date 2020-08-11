@@ -228,3 +228,52 @@ body {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.pbp {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f2f2f2;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+.html {
+  width: 80%;
+  background-color: #34495e;
+}
+.css {
+  width: 70%;
+  background-color: #34495e;
+}
+.js {
+  width: 50%;
+  background-color: #34495e;
+}
+.bp {
+  width: 70%;
+  background-color: #34495e;
+}
+.python {
+  width: 80%;
+  background-color: #34495e;
+}
+.django {
+  width: 50%;
+  background-color: #34495e;
+}
+.psql {
+  width: 60%;
+  background-color: #34495e;
+}
+.portfoliosc {
+  padding-top: 100px;
+}
+.porttitle {
+  padding-top: 50px;
+}
+.portbody {
+  padding-bottom: 100px;
+}
