@@ -8,6 +8,12 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+.shadow {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+body {
+  background-color: #d0d3d4;
+}
 /* font style */
 .font1 {
   font-family: cursive, sans-serif;
@@ -19,18 +25,19 @@ body {
   font-family: cursive, sans-serif;
 }
 
-/* footer style */
-.footer {
-  background-color: #566573;
-  margin: 0px auto;
-  padding: 20px 0px 20px 0px;
-  color: #f2f3f4;
-}
-
 /* navbar style */
 .navbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   background-color: #17202a;
 }
+.icon_style {
+  background-color: #f2f2f2;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/*  1. home style */
 .home-bg {
   background: url(../img/backgroundimg.jpg) no-repeat;
   background-size: cover;
@@ -55,7 +62,6 @@ body {
 #home-bg .contents h5 {
   font-size: 50px;
 }
-
 .hero-heading {
   font-size: 48px;
   font-weight: 700;
@@ -64,7 +70,6 @@ body {
   line-height: 70px;
   letter-spacing: 0.1rem;
 }
-
 .hero-sub-heading {
   font-size: 20px;
   font-weight: 400;
@@ -72,16 +77,14 @@ body {
   line-height: 45px;
   letter-spacing: 0.1rem;
 }
-#contact {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
 /* About style */
+#about {
+  margin-top: 40px;
+}
 .about-profile {
   margin: 20px 0 30px 0;
 }
-
 .pro-title {
   font-weight: 700;
   color: #040404;
@@ -105,6 +108,53 @@ body {
 }
 .img-thumb {
   margin-bottom: 0px;
+}
+
+/* progress bar style*/
+.pbp {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+}
+.controls {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+.html {
+  width: 80%;
+  background-color: #34495e;
+}
+.css {
+  width: 70%;
+  background-color: #34495e;
+}
+.js {
+  width: 50%;
+  background-color: #34495e;
+}
+.bp {
+  width: 70%;
+  background-color: #34495e;
+}
+.python {
+  width: 80%;
+  background-color: #34495e;
+}
+.django {
+  width: 50%;
+  background-color: #34495e;
+}
+.psql {
+  width: 60%;
+  background-color: #34495e;
 }
 
 /* Resume */
@@ -185,8 +235,29 @@ body {
   height: 50px;
   text-align: center;
 }
-.mcolor {
-  background-color: #2c3e50;
+.content-text {
+  border-radius: 20px;
+}
+.content-text:hover {
+  font-size: large;
+  box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 04. portfolio style */
+.portfoliosc {
+  padding-top: 100px;
+}
+#portfolios {
+  padding-top: 10px;
+  background: #f2f2f2;
+  border-radius: 30px;
+}
+.porttitle {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #34495e;
+  border-radius: 50px;
   color: #fff;
 }
 .pfbtn {
@@ -198,82 +269,46 @@ body {
   padding-bottom: 10px;
   margin-left: 1px;
   margin-right: 1px;
+  border-radius: 30px;
 }
 .pfbtn:hover {
   color: #2c3e50;
   background-color: #fff;
 }
-.controls {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 500px;
-  margin-right: 500px;
+#portfolio {
+  margin-left: 100px;
+  margin-right: 100px;
 }
-#portfolios {
-  background: #f2f2f2;
+.portbody {
+  padding-bottom: 100px;
 }
-
-.img2 {
-  width: 100%;
-  height: 400px;
-}
-
 .shot-item {
   margin-right: 15px;
   border-radius: 4px;
   background: #fff;
   position: relative;
 }
-#portfolio {
-  margin-left: 100px;
-  margin-right: 100px;
+.img2 {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 400px;
+  border-radius: 30px;
 }
-
-.pbp {
-  margin-top: 70px;
-  margin-bottom: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #f2f2f2;
+/* Contact form style*/
+#contact {
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
-
-.progress {
-  margin-bottom: 10px;
+.mcolor {
+  background-color: #2c3e50;
+  color: #fff;
 }
-.html {
-  width: 80%;
-  background-color: #34495e;
-}
-.css {
-  width: 70%;
-  background-color: #34495e;
-}
-.js {
-  width: 50%;
-  background-color: #34495e;
-}
-.bp {
-  width: 70%;
-  background-color: #34495e;
-}
-.python {
-  width: 80%;
-  background-color: #34495e;
-}
-.django {
-  width: 50%;
-  background-color: #34495e;
-}
-.psql {
-  width: 60%;
-  background-color: #34495e;
-}
-.portfoliosc {
-  padding-top: 100px;
-}
-.porttitle {
-  padding-top: 50px;
-}
-.portbody {
-  padding-bottom: 100px;
+/* footer style */
+.footer {
+  background-color: #283747;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  color: #f2f3f4;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
