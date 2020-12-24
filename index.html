@@ -22,9 +22,13 @@
     <title>Portfolio_Sohag</title>
     <!-- add icon link -->
     <link rel="icon" href="./assets/img/logoS.png" type="image/x-icon" />
+    <!-- loading style-->
+    <link rel="stylesheet" href="./assets/css/loading.css">
   </head>
 
-  <body>
+  <body onload="myFunction()" style="margin:0px;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <!-- Navigation -->
     <nav
       class="navbar navbar-expand-sm navbar-dark shadow fixed-top"
@@ -794,6 +798,26 @@
         </div>
       </div>
     </footer>
+  </div>
+
+  <div id="some_text" >
+    <h1>Loading....</h1>
+  </div>
+
+    <script>
+      var myVar;
+      var counter = 0;
+      
+      function myFunction() {
+        myVar = setTimeout(showPage, 2000);
+      }
+      
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("some_text").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./assets/jquery/jquery-3.5.1.min.js"></script>
     <script src="./assets/jquery/popper.min.js"></script>
