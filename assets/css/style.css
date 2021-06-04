@@ -91,13 +91,13 @@ body {
   font-weight: 700;
   color: #040404;
   width: 120px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .pro-title:after {
   position: absolute;
   color: #040404;
   font-size: 14px;
-  left: 77px;
+  /* left: 77px; */
 }
 
 .about-profile .admin-sign {
@@ -151,14 +151,22 @@ body {
   background-color: #34495e;
 }
 .python {
-  width: 80%;
+  width: 70%;
+  background-color: #34495e;
+}
+.php{
+  width: 70%;
   background-color: #34495e;
 }
 .django {
   width: 50%;
   background-color: #34495e;
 }
-.psql {
+.laravel {
+  width: 50%;
+  background-color: #34495e;
+}
+.mysql {
   width: 60%;
   background-color: #34495e;
 }

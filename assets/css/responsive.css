@@ -6,17 +6,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .controls {
+  .filter_btn {
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 75px;
-    margin-right: 150px;
   }
   .icon_style {
     padding-left: 0px;
     padding-right: 0px;
   }
   .pfbtn {
+    cursor: pointer;
     color: #fff;
     background-color: #2c3e50;
     text-transform: uppercase;
@@ -53,17 +52,18 @@
   }
 }
 @media only screen and (max-width: 992px) {
-  .controls {
+  .filter_btn {
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 75px;
-    margin-right: 150px;
+    /* margin-left: 75px;
+    margin-right: 150px; */
   }
   .icon_style {
     padding-left: 60px;
     padding-right: 60px;
   }
   .pfbtn {
+    cursor: pointer;
     color: #fff;
     background-color: #2c3e50;
     text-transform: uppercase;
@@ -98,17 +98,18 @@
   }
 }
 @media only screen and (min-width: 1000px) {
-  .controls {
+  .filter_btn {
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 410px;
-    margin-right: 410px;
+    /* margin-left: 410px;
+    margin-right: 410px; */
   }
   .icon_style {
     padding-left: 30px;
     padding-right: 30px;
   }
   .pfbtn {
+    cursor: pointer;
     color: #fff;
     background-color: #2c3e50;
     text-transform: uppercase;
